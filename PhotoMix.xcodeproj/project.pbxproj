@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A511C0181E62A5C900A54A2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C0171E62A5C900A54A2C /* main.m */; };
-		A511C01B1E62A5C900A54A2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C01A1E62A5C900A54A2C /* AppDelegate.m */; };
-		A511C01E1E62A5C900A54A2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C01D1E62A5C900A54A2C /* ViewController.m */; };
-		A511C0211E62A5C900A54A2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A511C01F1E62A5C900A54A2C /* Main.storyboard */; };
-		A511C0241E62A5C900A54A2C /* PhotoMix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A511C0221E62A5C900A54A2C /* PhotoMix.xcdatamodeld */; };
 		A511C0261E62A5C900A54A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A511C0251E62A5C900A54A2C /* Assets.xcassets */; };
-		A511C0291E62A5C900A54A2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A511C0271E62A5C900A54A2C /* LaunchScreen.storyboard */; };
 		A511C0341E62A5C900A54A2C /* PhotoMixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C0331E62A5C900A54A2C /* PhotoMixTests.m */; };
 		A511C03F1E62A5C900A54A2C /* PhotoMixUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C03E1E62A5C900A54A2C /* PhotoMixUITests.m */; };
+		A588D2591E62C87200670E2F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A588D2581E62C87200670E2F /* Info.plist */; };
+		A588D26C1E62C8C100670E2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A588D25C1E62C8C100670E2F /* AppDelegate.m */; };
+		A588D26D1E62C8C100670E2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A588D25D1E62C8C100670E2F /* main.m */; };
+		A588D26E1E62C8C100670E2F /* PhotoMix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A588D25F1E62C8C100670E2F /* PhotoMix.xcdatamodeld */; };
+		A588D26F1E62C8C100670E2F /* LaunchScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = A588D2631E62C8C100670E2F /* LaunchScreenView.m */; };
+		A588D2701E62C8C100670E2F /* LaunchScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A588D2641E62C8C100670E2F /* LaunchScreenView.xib */; };
+		A588D2721E62C8C100670E2F /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = A588D26B1E62C8C100670E2F /* Photo.m */; };
+		A588D2761E62CB9300670E2F /* orange_button_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A588D2741E62CB9300670E2F /* orange_button_normal@2x.png */; };
+		A588D2771E62CB9300670E2F /* orange_button_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A588D2751E62CB9300670E2F /* orange_button_normal@3x.png */; };
 		CA622362DC5E2F7D39A66F07 /* libPods-PhotoMix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4370F79DCCE1F28AF90AC492 /* libPods-PhotoMix.a */; };
 /* End PBXBuildFile section */
 
@@ -40,22 +43,25 @@
 		099E387360717D47D78BF53A /* Pods-PhotoMix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoMix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoMix/Pods-PhotoMix.debug.xcconfig"; sourceTree = "<group>"; };
 		4370F79DCCE1F28AF90AC492 /* libPods-PhotoMix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhotoMix.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A511C0131E62A5C900A54A2C /* PhotoMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A511C0171E62A5C900A54A2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A511C0191E62A5C900A54A2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A511C01A1E62A5C900A54A2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A511C01C1E62A5C900A54A2C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A511C01D1E62A5C900A54A2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A511C0201E62A5C900A54A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A511C0231E62A5C900A54A2C /* PhotoMix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoMix.xcdatamodel; sourceTree = "<group>"; };
 		A511C0251E62A5C900A54A2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A511C0281E62A5C900A54A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A511C02A1E62A5C900A54A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A511C02F1E62A5C900A54A2C /* PhotoMixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A511C0331E62A5C900A54A2C /* PhotoMixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoMixTests.m; sourceTree = "<group>"; };
 		A511C0351E62A5C900A54A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A511C03A1E62A5C900A54A2C /* PhotoMixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A511C03E1E62A5C900A54A2C /* PhotoMixUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoMixUITests.m; sourceTree = "<group>"; };
 		A511C0401E62A5C900A54A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A588D2581E62C87200670E2F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A588D25B1E62C8C100670E2F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A588D25C1E62C8C100670E2F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A588D25D1E62C8C100670E2F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A588D2601E62C8C100670E2F /* PhotoMix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoMix.xcdatamodel; sourceTree = "<group>"; };
+		A588D2621E62C8C100670E2F /* LaunchScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchScreenView.h; sourceTree = "<group>"; };
+		A588D2631E62C8C100670E2F /* LaunchScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchScreenView.m; sourceTree = "<group>"; };
+		A588D2641E62C8C100670E2F /* LaunchScreenView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreenView.xib; sourceTree = "<group>"; };
+		A588D26A1E62C8C100670E2F /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		A588D26B1E62C8C100670E2F /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		A588D2741E62CB9300670E2F /* orange_button_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange_button_normal@2x.png"; sourceTree = "<group>"; };
+		A588D2751E62CB9300670E2F /* orange_button_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange_button_normal@3x.png"; sourceTree = "<group>"; };
 		AC478C297DD8BF4076379F2A /* Pods-PhotoMix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoMix.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoMix/Pods-PhotoMix.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,15 +125,12 @@
 		A511C0151E62A5C900A54A2C /* PhotoMix */ = {
 			isa = PBXGroup;
 			children = (
-				A511C0191E62A5C900A54A2C /* AppDelegate.h */,
-				A511C01A1E62A5C900A54A2C /* AppDelegate.m */,
-				A511C01C1E62A5C900A54A2C /* ViewController.h */,
-				A511C01D1E62A5C900A54A2C /* ViewController.m */,
-				A511C01F1E62A5C900A54A2C /* Main.storyboard */,
+				A588D25A1E62C8C100670E2F /* AppDelegate */,
+				A588D25E1E62C8C100670E2F /* CoreData */,
+				A588D2611E62C8C100670E2F /* LaunchScreenView */,
+				A588D2651E62C8C100670E2F /* Tools */,
 				A511C0251E62A5C900A54A2C /* Assets.xcassets */,
-				A511C0271E62A5C900A54A2C /* LaunchScreen.storyboard */,
-				A511C02A1E62A5C900A54A2C /* Info.plist */,
-				A511C0221E62A5C900A54A2C /* PhotoMix.xcdatamodeld */,
+				A588D2581E62C87200670E2F /* Info.plist */,
 				A511C0161E62A5C900A54A2C /* Supporting Files */,
 			);
 			path = PhotoMix;
@@ -136,7 +139,6 @@
 		A511C0161E62A5C900A54A2C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A511C0171E62A5C900A54A2C /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -157,6 +159,61 @@
 				A511C0401E62A5C900A54A2C /* Info.plist */,
 			);
 			path = PhotoMixUITests;
+			sourceTree = "<group>";
+		};
+		A588D25A1E62C8C100670E2F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A588D25B1E62C8C100670E2F /* AppDelegate.h */,
+				A588D25C1E62C8C100670E2F /* AppDelegate.m */,
+				A588D25D1E62C8C100670E2F /* main.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A588D25E1E62C8C100670E2F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A588D25F1E62C8C100670E2F /* PhotoMix.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		A588D2611E62C8C100670E2F /* LaunchScreenView */ = {
+			isa = PBXGroup;
+			children = (
+				A588D2731E62CB9300670E2F /* Resource */,
+				A588D2621E62C8C100670E2F /* LaunchScreenView.h */,
+				A588D2631E62C8C100670E2F /* LaunchScreenView.m */,
+				A588D2641E62C8C100670E2F /* LaunchScreenView.xib */,
+			);
+			path = LaunchScreenView;
+			sourceTree = "<group>";
+		};
+		A588D2651E62C8C100670E2F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A588D2691E62C8C100670E2F /* Photo */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A588D2691E62C8C100670E2F /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				A588D26A1E62C8C100670E2F /* Photo.h */,
+				A588D26B1E62C8C100670E2F /* Photo.m */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		A588D2731E62CB9300670E2F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A588D2741E62CB9300670E2F /* orange_button_normal@2x.png */,
+				A588D2751E62CB9300670E2F /* orange_button_normal@3x.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		DE2FCBE90C18D6F961D08449 /* Frameworks */ = {
@@ -238,7 +295,7 @@
 					A511C0121E62A5C900A54A2C = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3Q553VZ29W;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					A511C02E1E62A5C900A54A2C = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -279,9 +336,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A511C0291E62A5C900A54A2C /* LaunchScreen.storyboard in Resources */,
 				A511C0261E62A5C900A54A2C /* Assets.xcassets in Resources */,
-				A511C0211E62A5C900A54A2C /* Main.storyboard in Resources */,
+				A588D2701E62C8C100670E2F /* LaunchScreenView.xib in Resources */,
+				A588D2591E62C87200670E2F /* Info.plist in Resources */,
+				A588D2761E62CB9300670E2F /* orange_button_normal@2x.png in Resources */,
+				A588D2771E62CB9300670E2F /* orange_button_normal@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,10 +413,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A511C01E1E62A5C900A54A2C /* ViewController.m in Sources */,
-				A511C0241E62A5C900A54A2C /* PhotoMix.xcdatamodeld in Sources */,
-				A511C01B1E62A5C900A54A2C /* AppDelegate.m in Sources */,
-				A511C0181E62A5C900A54A2C /* main.m in Sources */,
+				A588D2721E62C8C100670E2F /* Photo.m in Sources */,
+				A588D26E1E62C8C100670E2F /* PhotoMix.xcdatamodeld in Sources */,
+				A588D26D1E62C8C100670E2F /* main.m in Sources */,
+				A588D26C1E62C8C100670E2F /* AppDelegate.m in Sources */,
+				A588D26F1E62C8C100670E2F /* LaunchScreenView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,25 +451,6 @@
 			targetProxy = A511C03B1E62A5C900A54A2C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A511C01F1E62A5C900A54A2C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A511C0201E62A5C900A54A2C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A511C0271E62A5C900A54A2C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A511C0281E62A5C900A54A2C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A511C0411E62A5C900A54A2C /* Debug */ = {
@@ -505,11 +546,14 @@
 			baseConfigurationReference = 099E387360717D47D78BF53A /* Pods-PhotoMix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yang yang (N3J33237BU)";
 				DEVELOPMENT_TEAM = 3Q553VZ29W;
 				INFOPLIST_FILE = PhotoMix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AiJiaKang.BP3L.PhotoMix;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiJiaKang.BP3L;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f2c3fa64-0677-49e4-bd7e-31740db82800";
+				PROVISIONING_PROFILE_SPECIFIER = "yang yang";
 			};
 			name = Debug;
 		};
@@ -518,11 +562,14 @@
 			baseConfigurationReference = AC478C297DD8BF4076379F2A /* Pods-PhotoMix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yang yang (N3J33237BU)";
 				DEVELOPMENT_TEAM = 3Q553VZ29W;
 				INFOPLIST_FILE = PhotoMix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AiJiaKang.BP3L.PhotoMix;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiJiaKang.BP3L;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f2c3fa64-0677-49e4-bd7e-31740db82800";
+				PROVISIONING_PROFILE_SPECIFIER = "yang yang";
 			};
 			name = Release;
 		};
@@ -595,6 +642,7 @@
 				A511C0451E62A5C900A54A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A511C0461E62A5C900A54A2C /* Build configuration list for PBXNativeTarget "PhotoMixTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +651,7 @@
 				A511C0481E62A5C900A54A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A511C0491E62A5C900A54A2C /* Build configuration list for PBXNativeTarget "PhotoMixUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,16 +660,17 @@
 				A511C04B1E62A5C900A54A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A511C0221E62A5C900A54A2C /* PhotoMix.xcdatamodeld */ = {
+		A588D25F1E62C8C100670E2F /* PhotoMix.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A511C0231E62A5C900A54A2C /* PhotoMix.xcdatamodel */,
+				A588D2601E62C8C100670E2F /* PhotoMix.xcdatamodel */,
 			);
-			currentVersion = A511C0231E62A5C900A54A2C /* PhotoMix.xcdatamodel */;
+			currentVersion = A588D2601E62C8C100670E2F /* PhotoMix.xcdatamodel */;
 			path = PhotoMix.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

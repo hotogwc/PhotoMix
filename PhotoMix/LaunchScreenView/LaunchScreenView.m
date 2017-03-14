@@ -58,6 +58,7 @@
 }
   
 - (IBAction)takePhoto:(UIButton *)sender {
+    //test development
     [self takePhotoOrChoosePhoto:0];
 }
 

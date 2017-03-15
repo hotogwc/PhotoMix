@@ -258,6 +258,7 @@
     //test development——03
     //test development——05
     //test development——06
+    //test development——03
 }
 
 //处理各种手势

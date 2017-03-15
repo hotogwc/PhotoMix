@@ -42,7 +42,7 @@
 /*
  * 图片转换为字符串
  */
-+(NSString *) image2String:(UIImage *)image;
++(NSString *) image2String:(UIImage *)image size:(float)size;
 
 /*
  * 字符串转换为图片

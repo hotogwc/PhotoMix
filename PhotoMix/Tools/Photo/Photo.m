@@ -121,8 +121,8 @@ static const char encodingTable[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopq
 #pragma mark -
 #pragma mark 内部方法
 
-+(NSString *) image2String:(UIImage *)image{
-	NSData* pictureData = UIImagePNGRepresentation(image);//进行图片压缩从0.0到1.0（0.0表示最大压缩，质量最低);
++(NSString *) image2String:(UIImage *)image size:(float)size{
+	NSData* pictureData = UIImageJPEGRepresentation(image, size);//进行图片压缩从0.0到1.0（0.0表示最大压缩，质量最低);
 	NSString* pictureDataString = [pictureData base64Encoding];//图片转码成为base64Encoding，
 	return pictureDataString;
 }

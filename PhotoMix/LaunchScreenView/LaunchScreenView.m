@@ -255,6 +255,8 @@
     [self takePhotoOrChoosePhoto:1];
     //test development——04
     //test development——04
+    //test development——03
+    //test development——05
 }
 
 //处理各种手势

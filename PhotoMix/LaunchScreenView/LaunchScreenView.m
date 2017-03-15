@@ -253,6 +253,7 @@
 - (IBAction)selectPhoto:(UIButton *)sender {
     //test development——02
     [self takePhotoOrChoosePhoto:1];
+    //test development——03
 }
 
 //处理各种手势
